@@ -1,6 +1,6 @@
-# MSCI-541-HW4
+# MSCI-541
 
-Thomas Enns - 20823674
+Thomas Enns
 
 This repository consists of 11 programs which work together to create then query an index of files, then to evaluate search results and performance.
 
@@ -33,7 +33,7 @@ python BM25.py C:\Users\thoma\Documents\3Bterm\MSCI541\testdirS queries.txt hw4-
 The tenth program, docIndex.py, accepts one argument, the location of the gzip file containing the documents. The program will esentially only parse the documents to create an index which maps from the docno to the text of each document and then save that index as a pickle file. An example of the appropriate way to run this program from the console is as follows:
 python docIndex.py C:\Users\thoma\Documents\3Bterm\MSCI541\latimes.gz 
 
-The eleventh program hw-5-tenns.ipynb, is essentially to re-ran the top 100 results from the BM25 run file using the monoBERT machine learning algorith. It has a number of codeblocks that can be run sequencially. The ones with reference to github can be ignored
+The eleventh program hw-5-tenns.ipynb, is essentially to re-rank the top 100 results from the BM25 run file using the monoBERT machine learning algorith. It has a number of codeblocks that can be run sequencially. The ones with reference to github can be ignored
 
 
 
